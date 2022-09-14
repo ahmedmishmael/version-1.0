@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #968c8b;
+}
+header {
+  background-image: url("../images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white !important;
+}
+.nav-link {
+  margin: 0;
+  padding: 18px !important;
+}
+.nav-link:hover {
+  background-color: #da1333;
+  cursor: pointer;
+}
+.social-media a {
+  color: transparent !important;
+}
+.title {
+  font-family: "Satisfy", cursive;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+}
+.header-body {
+  position: absolute;
+  bottom: 0;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-large-font {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5vw;
+  line-height: 0.8;
+}
+.header-special-font {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+.header-normal-font {
+  font-size: larger;
+}
+.header-text button {
+  padding: 10px;
+  border: none !important;
+  background-color: #da1333;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+@media screen and (max-width: 991px) {
+  .social-media {
+    display: none;
+  }
+}
+
+section {
+  background-color: #c9c9c9;
+}
+#about {
+  text-align: center;
+}
+
+.skills-txt {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-txt p {
+  margin: 0;
+}
+
+.progress {
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.progress-bar {
+  background-color: orange !important;
+}
+footer {
+  background-color: #332f2c;
+  color: white;
+  text-align: center;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+}
+#footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+::placeholder {
+  color: gray;
+}
+input {
+  outline: none;
+  background-color: #555459;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 400px) {
+  #footer input {
+    width: 98%;
+  }
+}
+#copyright {
+  display: flex;
+  justify-content: center;
+}
+#copyright p {
+  margin-top: 2px;
+  color: gray;
+}
+
+#copyright img {
+  border-radius: 5px;
+}
+.carousel-holder {
+  display: flex;
+  justify-content: center;
+}
+.carousel-caption {
+  color: black;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.contact div:hover {
+  background-color: #332f2c;
+  color: white;
+  cursor: pointer;
+}
+.contact h2 {
+  color: #da1333;
+}
+
+.card {
+  background-color: #332f2c;
+  color: white;
+  border: none;
+  outline: none;
+}
+.shadow {
+  box-shadow: 0rem 0rem 1rem rgb(0 0 0 / 70%) !important;
+}
+.card .btn {
+  background-color: #da1333;
+  color: white;
+  border: none;
+}
