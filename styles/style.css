@@ -4,18 +4,30 @@ html {
 body {
   background-color: #968c8b;
 }
+
 header {
   background-image: url("../images/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   color: white;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
-
+.navbar {
+  padding: 0;
+}
+@media screen and (max-width: 992px) {
+  .collapse {
+    background-color: #da1333;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+}
 nav a {
   color: white !important;
 }
@@ -30,15 +42,15 @@ nav a {
 .social-media a {
   color: transparent !important;
 }
+.social-media img {
+  width: 25px;
+  height: 25px;
+}
 .title {
   font-family: "Satisfy", cursive;
   font-style: italic;
   text-align: center;
   font-size: 50px;
-}
-.header-body {
-  position: absolute;
-  bottom: 0;
 }
 .header-text {
   display: flex;
@@ -67,7 +79,7 @@ nav a {
   font-size: larger;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .social-media {
     display: none;
   }
@@ -107,6 +119,14 @@ footer {
 #footer-left {
   display: flex;
   flex-direction: column;
+}
+
+.social-media-footer a {
+  color: transparent !important;
+}
+.social-media-footer img {
+  width: 25px;
+  height: 25px;
 }
 
 ::placeholder {
