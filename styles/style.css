@@ -20,7 +20,7 @@ header {
   padding: 0;
 }
 @media screen and (max-width: 992px) {
-  .collapse {
+  .navbar-collapse {
     background-color: #da1333;
     position: absolute;
     top: 60px;
