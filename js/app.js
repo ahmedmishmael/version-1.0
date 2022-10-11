@@ -1,18 +1,18 @@
-// const aboutBtn = document.querySelector(`#about-btn`);
-// const portfolioBtn = document.querySelector(`#portfolio-btn`);
-// const contactBtn = document.querySelector(`#contact-btn`);
-// const about = document.querySelector(`#about`);
-// const portfolio = document.querySelector(`#portfolio`);
-// const contact = document.querySelector(`#contact`);
+const aboutBtn = document.querySelector(`#about-btn`);
+const portfolioBtn = document.querySelector(`#portfolio-btn`);
+const contactBtn = document.querySelector(`#contact-btn`);
+const about = document.querySelector(`#about`);
+const portfolio = document.querySelector(`#portfolio`);
+const contact = document.querySelector(`#contact`);
 
-// const buttons = [aboutBtn, portfolioBtn, servicesBtn, contactBtn];
-// const sections = [about, portfolio, services, contact];
+const buttons = [aboutBtn, portfolioBtn, contactBtn];
+const sections = [about, portfolio, contact];
 
-// for (let index = 0; index < buttons.length; index++) {
-//   buttons[index].addEventListener("click", () => {
-//     sections[index].scrollIntoView();
-//   });
-// }
+for (let index = 0; index < buttons.length; index++) {
+  buttons[index].addEventListener("click", () => {
+    sections[index].scrollIntoView();
+  });
+}
 
 const selectedBtn = document.getElementById(`selected-btn`);
 const allBtn = document.getElementById(`all-btn`);
