@@ -14,16 +14,16 @@ for (let index = 0; index < buttons.length; index++) {
   });
 }
 
-const selectedBtn = document.getElementById(`selected-btn`);
-const allBtn = document.getElementById(`all-btn`);
-const selected = document.getElementById(`selected`);
-const all = document.getElementById(`all`);
+// const selectedBtn = document.getElementById(`selected-btn`);
+// const allBtn = document.getElementById(`all-btn`);
+// const selected = document.getElementById(`selected`);
+// const all = document.getElementById(`all`);
 
-selectedBtn.addEventListener("click", () => {
-  all.style.display = `none`;
-  selected.style.display = `flex`;
-});
-allBtn.addEventListener("click", () => {
-  selected.style.display = `none`;
-  all.style.display = `flex`;
-});
+// selectedBtn.addEventListener("click", () => {
+//   all.style.display = `none`;
+//   selected.style.display = `flex`;
+// });
+// allBtn.addEventListener("click", () => {
+//   selected.style.display = `none`;
+//   all.style.display = `flex`;
+// });
